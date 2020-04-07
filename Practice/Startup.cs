@@ -72,7 +72,7 @@ namespace Practice
                 if (env.IsDevelopment())
                 {
                     spa.UseAngularCliServer(npmScript: "start"); 
-                    spa.Options.StartupTimeout = TimeSpan.FromSeconds(200);
+                    spa.Options.StartupTimeout = TimeSpan.FromSeconds(2000);
                 }
             });
         }
